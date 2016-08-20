@@ -1,0 +1,50 @@
+</html>
+<head>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+
+    <script type="text/javascript">
+    function toggleDiv(divId) {
+       $("#"+divId).toggle();
+    }
+    </script>
+	<style>
+	.hidden { display: none; }
+	</style>
+</head>
+<body>
+Boats<a href="javascript:toggleDiv('divBoats');" style="">Show/Hide</a>
+<div id="divBoats" style="" class="hidden">
+Dinghy
+Jetmax
+Marquis
+Predator
+Seashark
+Speeder
+Squalo
+Submersibles
+Suntrap
+Toro
+Tropic
+Tug
+</div>
+<br>
+
+Commercial<a href="javascript:toggleDiv('divCommercial');" style="">Show/Hide</a>
+<div id="divCommercial" style="" class="hidden">
+<ul>
+
+<li>Benson</li>
+Biff
+Hauler
+Mule (1)
+Mule (2)
+Mule (3)
+Packer
+Phantom
+Pounder
+Stockade
+</ul>
+</div>
+
+</body>
+</html>
