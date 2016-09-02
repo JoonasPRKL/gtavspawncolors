@@ -4,32 +4,28 @@
 <title>Utility - GTAV Vehicle Spawn Colors</title>
 <head>
 <link rel="stylesheet" href="style.css">
-<script>
-        function switchToSheet(id) {
-		baseSheet = "https://docs.google.com/spreadsheets/d/1nURvtQB_fVf_NpxT7GeSWVNSXXIk8_2V8T3lzvtojNc/pubhtml";
-		document.getElementById('Freimi').src = baseSheet + "?gid=" + id + "&single=true";;
-          }
-</script>
+<script src="js/main.js"></script>
 </head>
 <body>
 <center>
 <a href="index.html"><img src="http://i.imgur.com/2GL1XdM.png"></a>
 <h2><a class="nimi" href="http://gtaforums.com/user/73393-joonasprkl/">Utility</a></h2>
 <div>
-    <a class="nappi" href="#" onclick="switchToSheet('2046685848')">Caddy (1)</a>
-    <a class="nappi" href="#" onclick="switchToSheet('896089065')">Caddy (2)</a>
-    <a class="nappi" href="#" onclick="switchToSheet('1938863327')">Fieldmaster</a>
-    <a class="nappi" href="#" onclick="switchToSheet('326664525')">Forklift</a>
-    <a class="nappi" href="#" onclick="switchToSheet('1793563512')">Lawn Mower</a>
-    <a class="nappi" href="#" onclick="switchToSheet('2100896426')">Sadler</a>
-    <a class="nappi" href="#" onclick="switchToSheet('1914051596')">Scrap Truck</a>
-    <a class="nappi" href="#" onclick="switchToSheet('1375146719')">Towtruck (1)</a>
-    <a class="nappi" href="#" onclick="switchToSheet('2093551098')">Towtruck (2)</a>
-    <a class="nappi" href="#" onclick="switchToSheet('1195573624')">Others</a>
+    <a class="nappi" href="?veh=caddy1">Caddy (1)</a>
+    <a class="nappi" href="?veh=caddy2">Caddy (2)</a>
+    <a class="nappi" href="?veh=fieldmaster">Fieldmaster</a>
+    <a class="nappi" href="?veh=forklift">Forklift</a>
+    <a class="nappi" href="?veh=lawnmower">Lawn Mower</a>
+    <a class="nappi" href="?veh=sadler">Sadler</a>
+    <a class="nappi" href="?veh=scraptruck">Scrap Truck</a>
+    <a class="nappi" href="?veh=towtruck1">Towtruck (1)</a>
+    <a class="nappi" href="?veh=towtruck2">Towtruck (2)</a>
+    <a class="nappi" href="?veh=others">Others</a>
 </div>
 <iframe frameborder="0" src="" name="vehFrame" id="Freimi" width="100%" height="500">
    Browser does not support iframes.
 </iframe>
+<script src="js/utility.js"></script>
 </body>
 </center>
 </html>

@@ -4,24 +4,20 @@
 <title>Emergency - GTAV Vehicle Spawn Colors</title>
 <head>
 <link rel="stylesheet" href="style.css">
-<script>
-        function switchToSheet(id) {
-		baseSheet = "https://docs.google.com/spreadsheets/d/1XzXZDmxF22VQrw73kl0OqvhKVyEiNnPEXcPBn_C-vR4/pubhtml";
-		document.getElementById('Freimi').src = baseSheet + "?gid=" + id + "&single=true";;
-          }
-</script>
+<script src="js/main.js"></script>
 </head>
 <body>
 <center>
 <a href="index.html"><img src="http://i.imgur.com/2GL1XdM.png"></a>
 <h2><a class="nimi" href="http://gtaforums.com/user/73393-joonasprkl/">Emergency</a></h2>
 <div>
-<a class="nappi" href="#" onclick="switchToSheet('1777619012')">Unmarked Cruiser</a>
-<a class="nappi" href="#" onclick="switchToSheet('1513610037')">Other Emergency</a>
+<a class="nappi" href="?veh=unmarkedcruiser">Unmarked Cruiser</a>
+<a class="nappi" href="?veh=otheremergency">Other Emergency</a>
 </div>
 <iframe frameborder="0" src="" name="vehFrame" id="Freimi" width="100%" height="500">
    Browser does not support iframes.
 </iframe>
+<script src="js/emergency.js"></script>
 </body>
 </center>
 </html>
