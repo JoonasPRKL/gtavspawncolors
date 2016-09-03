@@ -1,0 +1,39 @@
+body {
+	font: 12px/18px arial, sans-serif;
+    margin: auto;
+    width: 480px;
+	background-color: #EEEEEE;
+}
+div {
+    width: auto;
+    padding: auto;
+
+    margin: auto;
+	background-color: #EEEEEE;
+}
+h1 {
+	font: 21px Georgia, "Times New Roman", Times, serif;
+}
+
+h2 {
+	font: 18px Georgia, "Times New Roman", Times, serif;
+}
+table, th, td {
+   border: 1px solid black;
+} 
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+.button {
+    background-color: #293039;
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
