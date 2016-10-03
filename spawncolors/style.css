@@ -43,6 +43,8 @@ div {
 .nimi{
 color:#000;
 text-decoration: none;
+font-family:Arial;
+font-weight:bold;
 }
 img
 {  border-style: none;
