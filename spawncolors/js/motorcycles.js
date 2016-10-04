@@ -17,6 +17,7 @@ sheetnumero = vehicleid.replace("akuma","1910725838")
 .replace("thrust","1630634943")
 .replace("vindicator","1596867053")
 .replace("vader","27915049")
+.replace("zombie","29783314")
 .replace("othermotorcycles","456212978");
 
 SheetUrl="https://docs.google.com/spreadsheets/d/1ZdHboYqenQtQzsnGcWYzzzu3vSxL3CLdAPVDGBcJfw4/pubhtml";
