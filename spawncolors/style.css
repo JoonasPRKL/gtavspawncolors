@@ -54,6 +54,6 @@ img
 }
 iframe {
     display: block;
-    height: calc(100vh - 238px);
+    height: calc(100vh - 50px);
     width: 100%;
 }
