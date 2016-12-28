@@ -31,7 +31,8 @@ sheetnumero = vehicleid.replace("9fcabrio","68747091")
 .replace("surano","2134010090")
 .replace("troposrallye","1049424149")
 .replace("drifttampa","1479739873")
-.replace("verlierer","721940950");
+.replace("verlierer","721940950")
+.replace("specter","592849893");
 
 SheetUrl="https://docs.google.com/spreadsheets/d/16QitdbVDHUppUirYo73lwb7nmfz9-ib7kxbJRIgRD_g/pubhtml";
 document.getElementById('Freimi').src = SheetUrl + "?gid=" + sheetnumero + "&single=true";;
