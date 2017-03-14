@@ -1,6 +1,7 @@
 var vehicleid = getParameterByName('veh');
 sheetnumero = vehicleid.replace("casco","854376873")
 .replace("coquetteclassic","2087131810")
+.replace("infernusclassic","688066768")
 .replace("manana","1284511629")
 .replace("monroe","188641701")
 .replace("peyote","784278058")
@@ -11,6 +12,7 @@ sheetnumero = vehicleid.replace("casco","854376873")
 .replace("stirlinggt","1354365137")
 .replace("tornadorusty","2060411515")
 .replace("tornado","2047262493")
+.replace("turismoclassic","872713285")
 .replace("ztype","1927781370")
 .replace("other","531237562");
 
