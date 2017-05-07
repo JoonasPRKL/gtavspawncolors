@@ -1,0 +1,1 @@
+!(function(){prompt('Current Crew Hex:',document.getElementById("crewColor").value)})()
